@@ -54,7 +54,7 @@ option(INSTALL_VENDORED_LIBS
 
 option(STOP_BUILD_ON_WARNING
     "Fail the build on C++ warnings"
-    ON)
+    OFF)
 
 option(BUILD_POSITION_INDEPENDENT_LIB
     "Compile static libraries with position independent code"
